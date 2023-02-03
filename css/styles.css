@@ -21,9 +21,7 @@ ul {
 .logo-header-part {
   color: var(--secondary-text-color);
 }
-.logo-footer-part {
-  color: #ffffff;
-}
+
 /* nav */
 .nav-links {
   color: var(--secondary-text-color);
@@ -38,6 +36,13 @@ ul {
 .auth-links:hover,
 .auth-links:focus {
   color: var(--secondary-brand-color);
+}
+/* footer */
+.logo-footer-part {
+  color: #ffffff;
+}
+.footer-text {
+  color: #e7e9fc;
 }
 /* hero */
 .hero-title {
