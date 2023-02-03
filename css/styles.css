@@ -1,1 +1,62 @@
+:root {
+  --secondary-text-color: #2e2f42;
+  --secondary-brand-color: #404bbf;
+  --main-brand-color: #4d5ae5;
+}
+body {
+  color: #434455;
+}
+ul {
+  list-style: none;
+}
+.headline {
+  color: var(--secondary-text-color);
+}
+/* header */
+.logo {
+}
+.logo-first-part {
+  color: var(--main-brand-color);
+}
+.logo-header-part {
+  color: var(--secondary-text-color);
+}
+.logo-footer-part {
+  color: #ffffff;
+}
+/* nav */
+.nav-links {
+  color: var(--secondary-text-color);
+}
+.nav-links:hover,
+.nav-links:focus {
+  color: var(--secondary-brand-color);
+}
+.auth-links {
+  color: inherit;
+}
+.auth-links:hover,
+.auth-links:focus {
+  color: var(--secondary-brand-color);
+}
+/* hero */
+.hero-title {
+  color: #ffffff;
+}
+.hero-button {
+  color: #ffffff;
+  background-color: var(--main-brand-color);
+}
+.hero-button:hover {
+  cursor: pointer;
+  background-color: var(--secondary-brand-color);
+}
+.hero-button:focus {
+  background-color: var(--secondary-brand-color);
+}
+/* features */
 
+/* portfolio page */
+.job-type {
+  color: #434455;
+}
