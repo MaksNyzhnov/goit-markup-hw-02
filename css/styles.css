@@ -53,8 +53,8 @@ ul {
   color: var(--secondary-text-color);
   font-weight: 500;
 }
-.nav-links:hover,
-.nav-links:focus {
+.link:hover,
+.link:focus {
   color: var(--secondary-brand-color);
 }
 .auth-links {
@@ -65,6 +65,9 @@ ul {
   color: var(--secondary-brand-color);
 }
 /* footer */
+.footer {
+  background-color: var(--secondary-text-color);
+}
 .logo-footer-part {
   color: #ffffff;
 }
