@@ -7,7 +7,6 @@
 body {
   color: var(--main-text-color);
   font-family: 'Roboto';
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 
@@ -22,7 +21,7 @@ ul {
 }
 .section-title {
   color: var(--secondary-text-color);
-  font-weight: 700;
+
   font-size: 36px;
   line-height: 1.1;
   text-transform: capitalize;
@@ -46,6 +45,9 @@ ul {
 }
 .logo-header-part {
   color: var(--secondary-text-color);
+}
+address {
+  font-style: inherit;
 }
 
 /* nav */
@@ -80,7 +82,7 @@ ul {
 }
 .hero-title {
   color: #ffffff;
-  font-weight: 700;
+
   font-size: 56px;
   line-height: 1.07;
 }
@@ -89,6 +91,7 @@ ul {
   background-color: var(--main-brand-color);
   font-weight: 500;
   letter-spacing: 0.04em;
+  border: none;
 }
 .hero-button:hover {
   cursor: pointer;
@@ -99,12 +102,17 @@ ul {
 }
 /* features */
 .feature-name
-
+/* team section */
+.team-section {
+  background-color: #f4f4fd;
+}
 /* portfolio page */
 .filter-btn {
   color: var(--main-brand-color);
   background-color: #f4f4fd;
   border-color: #e7e9fc;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .filter-btn:hover {
